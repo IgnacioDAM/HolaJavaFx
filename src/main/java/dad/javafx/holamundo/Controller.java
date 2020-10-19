@@ -20,7 +20,7 @@ public class Controller {
 			model.mensajeProperty().setValue("Aquí saldrá el saludo");
 			view.getMensaje().setStyle("");
 		} else {
-			model.mensajeProperty().setValue("¡Hola " + model.nombreProperty().getValue() + "!");
+			model.mensajeProperty().setValue("¡Hola " + model.getNombre() + "!");
 		}
 	}
 
